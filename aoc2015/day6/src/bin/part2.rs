@@ -44,7 +44,7 @@ fn main() {
         }
     }
 
-    let count: u32 = lights.iter().flatten().map(|&x| x as u32).sum();
+    let count: u32 = lights.iter().flatten().map(|&x| u32::from(x)).sum();
 
     println!("{count}");
 }

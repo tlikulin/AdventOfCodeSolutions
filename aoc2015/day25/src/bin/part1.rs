@@ -1,7 +1,7 @@
 fn main() {
-    let first = 20151125usize;
-    let multiplier = 252533;
-    let modulo = 33554393;
+    let first = 20_151_125usize;
+    let multiplier = 252_533;
+    let modulo = 33_554_393;
 
     let (x, y) = parse_coords();
     let diagonal = x + y - 1; // diagonal number (starts from 1)

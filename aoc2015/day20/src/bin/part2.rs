@@ -1,7 +1,7 @@
 #[allow(clippy::needless_range_loop)]
 fn main() {
-    let threshold = 33_100_000 / 11;
     const LIMIT: usize = 1_000_000;
+    let threshold = 33_100_000 / 11;
 
     let mut houses = [0; LIMIT];
 

@@ -14,7 +14,7 @@ struct Combatant {
 fn main() {
     let boss = parse_boss();
 
-    let weapons = vec![
+    let weapons = [
         Item {
             cost: 8,
             damage: 4,
@@ -42,7 +42,7 @@ fn main() {
         },
     ];
 
-    let armor = vec![
+    let armor = [
         Item {
             cost: 13,
             damage: 0,
@@ -76,7 +76,7 @@ fn main() {
         },
     ];
 
-    let rings = vec![
+    let rings = [
         Item {
             cost: 25,
             damage: 1,
