@@ -28,7 +28,7 @@ fn sum_factors(mut num: u64, primes: &[u64]) -> u64 {
 
         let mut count = 0;
 
-        while num % prime == 0 {
+        while num.is_multiple_of(prime) {
             num /= prime;
             count += 1;
         }
